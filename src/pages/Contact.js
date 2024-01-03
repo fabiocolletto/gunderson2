@@ -1,13 +1,14 @@
 import React from 'react';
+import Header from '../comp/Header';
 
-function Contact() {
+const Contact = () => {
   return (
     <div>
-      <h1>Contact Us</h1>
-      <p>Feel free to reach out to us for any inquiries or questions.</p>
-      {/* Add a contact form or additional contact information */}
+      <div className="main-content">
+        <h1>Bem-vindo à página de Contato.</h1>
+      </div>
     </div>
   );
-}
+};
 
 export default Contact;
